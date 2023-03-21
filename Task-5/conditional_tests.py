@@ -145,3 +145,36 @@ elif alien_color == 'yellow':
 else:
     print("Congratulations, you earned 15 points!")
 
+#5-6. Stages of Life
+
+age = 35
+
+if age < 2:
+    print("This person is a baby.")
+elif age < 4:
+    print("This person is a toddler.")
+elif age < 13:
+    print("This person is a kid.")
+elif age < 20:
+    print("This person is a teenager.")
+elif age < 65:
+    print("This person is an adult.")
+else:
+    print("This person is an elder.")
+
+#5-7. Favorite Fruit:
+
+# Create a list of favorite fruits
+favorite_fruits = ['apple', 'banana', 'orange']
+
+# Write if statements to check for certain fruits
+if 'apple' in favorite_fruits:
+    print("You really like apples!")
+if 'banana' in favorite_fruits:
+    print("You really like bananas!")
+if 'orange' in favorite_fruits:
+    print("You really like oranges!")
+if 'kiwi' in favorite_fruits:
+    print("You really like kiwis!")
+if 'grape' in favorite_fruits:
+    print("You really like grapes!")
