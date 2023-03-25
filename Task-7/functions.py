@@ -82,3 +82,45 @@ print(album2)
 print(album3)
 
 
+#8-9. Magicians
+
+def show_magicians(magicians):
+    for magician in magicians:
+        print(magician)
+
+# Example usage of the function
+magicians = ["David Copperfield", "Penn & Teller", "Criss Angel"]
+show_magicians(magicians)
+
+#8-10. Great Magicians
+def make_great(magicians):
+    for i in range(len(magicians)):
+        magicians[i] = "the Great " + magicians[i]
+
+magicians = ['Harry Houdini', 'David Copperfield', 'Penn Jillette', 'Teller', 'David Blaine']
+make_great(magicians)
+show_magicians(magicians)
+
+#8-12. Sandwiches:
+def make_sandwich(*items):
+    print("Making a sandwich with the following items:")
+    for item in items:
+        print("- " + item)
+
+make_sandwich("turkey", "lettuce", "tomato", "mayonnaise")
+make_sandwich("ham", "cheese", "mustard")
+make_sandwich("peanut butter", "jelly")
+
+
+#8-14. Cars
+
+def make_car(manufacturer, model_name, **car_info):
+    car = {}
+    car['manufacturer'] = manufacturer
+    car['model'] = model_name
+    for key, value in car_info.items():
+        car[key] = value
+    return car
+
+car = make_car('subaru', 'outback', color='blue', tow_package=True)
+print(car)
