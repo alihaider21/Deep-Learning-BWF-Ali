@@ -31,3 +31,31 @@ while True:
         if choice.lower() == "n":
             break
 
+#10-8. Cats and Dogs:
+
+try:
+    # read the contents of cats.txt file
+    with open('cats.txt', 'r') as cats_file:
+        cats = cats_file.read()
+        print("Contents of cats.txt:\n", cats)
+
+    # read the contents of dogs.txt file
+    with open('dogs.txt', 'r') as dogs_file:
+        dogs = dogs_file.read()
+        print("Contents of dogs.txt:\n", dogs)
+
+except FileNotFoundError as e:
+    print("File not found:", e.filename)
+
+
+# create the cats.txt file
+with open('cats.txt', 'w') as cats_file:
+    cats_file.write("Fluffy\n")
+    cats_file.write("Mittens\n")
+    cats_file.write("Whiskers\n")
+
+# create the dogs.txt file
+with open('dogs.txt', 'w') as dogs_file:
+    dogs_file.write("Buddy\n")
+    dogs_file.write("Max\n")
+    dogs_file.write("Charlie\n")
