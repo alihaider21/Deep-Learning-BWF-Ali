@@ -1,0 +1,5 @@
+I have Learned Python Variables
+I have Learned Python Data Types
+I have Learned Python Loops
+I have Learned Python Conditions
+I have Learned Python Classes
