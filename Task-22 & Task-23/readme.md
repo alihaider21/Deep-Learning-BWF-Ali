@@ -1,4 +1,4 @@
-Machine Learning Cheat Sheet
+## Machine Learning Cheat Sheet
 This cheat sheet provides a brief overview of the four main types of machine learning: Supervised Learning, Unsupervised Learning, Self-Supervised Learning, and Reinforcement Learning.
 
 Supervised Learning
